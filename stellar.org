@@ -1,0 +1,47 @@
+{
+  "_links": {
+    "account": {
+      "href": "https://horizon-testnet.stellar.org/accounts/{account_id}",
+      "templated": true
+    },
+    "account_transactions": {
+      "href": "https://horizon-testnet.stellar.org/accounts/{account_id}/transactions{?cursor,limit,order}",
+      "templated": true
+    },
+    "assets": {
+      "href": "https://horizon-testnet.stellar.org/assets{?asset_code,asset_issuer,cursor,limit,order}",
+      "templated": true
+    },
+    "friendbot": {
+      "href": "https://friendbot.stellar.org/{?addr}",
+      "templated": true
+    },
+    "metrics": {
+      "href": "https://horizon-testnet.stellar.org/metrics"
+    },
+    "order_book": {
+      "href": "https://horizon-testnet.stellar.org/order_book{?selling_asset_type,selling_asset_code,selling_asset_issuer,buying_asset_type,buying_asset_code,buying_asset_issuer,limit}",
+      "templated": true
+    },
+    "self": {
+      "href": "https://horizon-testnet.stellar.org/"
+    },
+    "transaction": {
+      "href": "https://horizon-testnet.stellar.org/transactions/{hash}",
+      "templated": true
+    },
+    "transactions": {
+      "href": "https://horizon-testnet.stellar.org/transactions{?cursor,limit,order}",
+      "templated": true
+    }
+  },
+  "horizon_version": "0.20.0~unstable-0c4a1deb190a37affe1788aa482ee2d15784721c",
+  "core_version": "stellar-core 11.4.0 (38f51d60bd7aa473edea6038aaf13c255d79c14d)",
+  "exp_history_latest_ledger": 659167,
+  "history_latest_ledger": 659166,
+  "history_elder_ledger": 1,
+  "core_latest_ledger": 659167,
+  "network_passphrase": "Test SDF Network ; September 2015",
+  "current_protocol_version": 11,
+  "core_supported_protocol_version": 11
+}
